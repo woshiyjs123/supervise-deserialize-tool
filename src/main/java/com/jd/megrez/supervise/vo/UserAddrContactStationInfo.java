@@ -307,7 +307,7 @@ public class UserAddrContactStationInfo {
     }
 
     public static String fileName() {
-        return "USER_ADDRESS_CONTACT_STATI";
+        return "USER_ADDRESS_CONTACT_STATION_INFO";
     }
 }
 

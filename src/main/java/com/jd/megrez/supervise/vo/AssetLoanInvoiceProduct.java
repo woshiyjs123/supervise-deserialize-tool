@@ -467,7 +467,7 @@ public class AssetLoanInvoiceProduct {
     }
 
     public static String fileName() {
-        return "ASSET_LOAN_INVOICE_PRODUCT";
+        return "ASSET_LOAN_INVOICE_PRODUCT_INFO";
     }
 
 }

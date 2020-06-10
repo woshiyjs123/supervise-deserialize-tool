@@ -49,7 +49,7 @@ public class AssetRiskManagement {
      * 产品Id
      */
     @Column(order = 5, comment = "产品Id", length = 32, canBeEmpty = true)
-    private Long productId;
+    private String productId;
 
     /**
      * 产品名称
@@ -270,11 +270,11 @@ public class AssetRiskManagement {
         this.productCode = productCode;
     }
 
-    public Long getProductId() {
+    public String getProductId() {
         return productId;
     }
 
-    public void setProductId(Long productId) {
+    public void setProductId(String productId) {
         this.productId = productId;
     }
 

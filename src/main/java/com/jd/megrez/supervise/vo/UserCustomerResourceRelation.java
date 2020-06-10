@@ -170,7 +170,7 @@ public class UserCustomerResourceRelation {
     }
 
     public static String fileName() {
-        return "USER_CUSTOMER_RESOURCE_REL";
+        return "USER_CUSTOMER_RESOURCE_RELATION";
     }
 
 }

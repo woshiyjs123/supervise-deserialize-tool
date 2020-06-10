@@ -156,7 +156,7 @@ public class UserTelContactStationInfo {
     }
 
     public static String fileName() {
-        return "USER_TEL_CONTACT_STATION_I";
+        return "USER_TEL_CONTACT_STATION_INFO";
     }
 
 }

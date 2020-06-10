@@ -96,10 +96,10 @@ public class ReportObjectReader {
         }
 
         String[] fieldValueArr = line.split(delimiterValue, 1000);
-        if(fields.length>fieldValueArr.length){
-            logger.error("将字符串反序列化到对象失败, 分隔符个数过少或Column注解个数不匹配");
-            return null;
-        }
+//        if(fields.length>fieldValueArr.length){
+//            logger.error("将字符串反序列化到对象失败, 分隔符个数过少或Column注解个数不匹配");
+//            return null;
+//        }
 
         Map<Integer, String> fieldValueMap = new HashMap<>();
         for(int i = 0; i < fieldValueArr.length; i++){
